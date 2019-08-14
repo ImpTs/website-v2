@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 // If need, change your variables before importing Bulma
-$title-color: #ff0000;
-
+$title-color: #c60c30;
+$primary: #00a1de;
+.has-bg-img { 
+    @extend .hero;
+    background: url('../images/chicago-lake.jpg')center center; background-size:cover;
+}
 @import "../../node_modules/bulma/bulma.sass";
