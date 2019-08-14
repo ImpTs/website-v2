@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>, <a href="https://reactjs.org/">React</a>, <a href="https://bulma.io/">Bulma</a> and Coffee ☕ 
         </footer>
      
     </>
