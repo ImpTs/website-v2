@@ -1,5 +1,6 @@
 import React from "react"
 import "../pages/mystyles.css"
+import Img from "./image-city.js"
 
 const Hero =({siteTitle}) => (
 
@@ -10,10 +11,10 @@ const Hero =({siteTitle}) => (
           Front end web developer
         </h2>
 
-
-      <figure className="image-is-square-is-background">
-        <img alt="highrise building by lake in chicago" src="https://images.unsplash.com/photo-1488393660112-976f752342de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1054&q=80"/>
-        </figure>
+        <Img className="image-is-square-is-background"
+        fluid="data.file.childImageSharp.fluid"
+        alt=" city by the lake"
+        />
       
     </div>
       

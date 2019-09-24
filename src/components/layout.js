@@ -28,10 +28,13 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
    
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        <footer class= "footer">
+          © {new Date().getFullYear()} 
+          <p className="is-pulled-right">Built with
           {` `}
+          
           <a href="https://www.gatsbyjs.org">Gatsby</a>, <a href="https://reactjs.org/">React</a>, <a href="https://bulma.io/">Bulma</a> and Coffee ☕ 
+          </p>
         </footer>
      
     </>
