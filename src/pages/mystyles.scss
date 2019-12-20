@@ -28,6 +28,11 @@ $dark: $sign;
 $font-family: 'Lexend Exa', sans-serif;
 $family-primary: $font-family;
 
+@media only screen and (min-width: 768px) {
+    /*desktop stuff */;
+    background: s
+    
+}
 .has-bg-img { 
     @extend .hero;
     background: url('../images/chicago-lake.jpg')center center; background-size:cover;
