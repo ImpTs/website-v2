@@ -32,7 +32,7 @@ const Tiles = () => (
         <div className="tile is-parent is-4">
         <article className="title is-child notification is-success">
             <div className="content">
-                <p className="title">Development Tools</p>
+                <p className="title">Tooling</p>
                 <div className="subtitle">
                 <p>Git, Bash, Regex, Webpack, NPM, VSCode, JIRA, Drupal, Agile, Wordpress, Git Pages</p>
             </div>
