@@ -14,7 +14,7 @@ const Tiles = () => (
         <article className="tile is-child box">
             <p className="title">About Me</p>
             <p className="content">I get my computer to do things for me professionally. I've been enjoying working on web development since 2017. When I'm not doing that, I also play board games, quit Twitter, and cook!</p>
-           <a className="button is-link" href="mailto:smaxfieldflagg@gmail.com"> Get in touch 🚂 </a>
+           <a className="button is-link" href="mailto:cosmokid3@gmail.com"> Get in touch 🚂 </a>
         </article>
       </div>
       <div className="tile"> 

@@ -39,4 +39,11 @@ $family-primary: $font-family;
     @extend .hero;
     background: url('../images/chicago-lake.jpg')center center; background-size:cover;
 }
+
+.hero-body .container .title {
+  text-shadow: 4px 4px 4px black
+
+}
+.hero-body .container .subtitle { text-shadow: 4px 4px 4px black}
+
 @import "../../node_modules/bulma/bulma.sass";
